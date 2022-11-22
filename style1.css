@@ -1,0 +1,30 @@
+.AC{
+background-color: rgb(93, 89, 89);
+color: white;
+
+}
+.main{
+    width: 100%;
+    height: 100vh;
+}
+.ac{
+    height: 100%;
+    width: 100%;
+}
+.imgs{
+    height: 30%;
+    width: 30%;
+}
+
+.ab{
+    display: none;
+}
+.cd{
+    display: none;
+}
+.ef{
+    display: none;
+}
+.pq{
+    display: none;
+}
