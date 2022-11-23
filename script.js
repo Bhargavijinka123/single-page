@@ -45,8 +45,8 @@ const print = () => {
         console.log('we donnot have anything on this price')
         span.innerHTML="we don't have anything on this price"
 
-        span.style.color="red"
-        div.style.backgroundImage="url()"
+        span.style.color="black"
+        div.style.backgroundImage="url(https://images.unsplash.com/photo-1531928351158-2f736078e0a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)"
         div.style.backgroundPosition="center"
         div.style.backgroundRepeat="norepeat"
         div.style.backgroundSize="cover"
