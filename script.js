@@ -1,18 +1,9 @@
+const show =()=>{
+console.log(document.getElementById('ar').value)
+let a=document.getElementById('ar').value;
+let b=a.toUpperCase();
 
-
-
-const show=()=>{
-
-    let ip1=document.getElementById('hm1').value
-    let ip2=document.getElementById('hm2').value
-
-
-console.log(ip1,ip2)
-
-document.getElementById('one').value=hm1.value
-document.getElementById('two').value=hm2.value
-
-
-//   alert(ip1,ip2).innerHTML
+document.getElementById('spn').innerHTML=b;
+// console.log(a.split('w'))
+   
 }
-

@@ -1,73 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap');
-
 *{
     padding: 0;
+
     margin: 0;
 }
 
 .main{
-    width: 100%;
     height: 100vh;
-    background-color: rgb(52, 159, 247);
+    width: 100%;
+
+}
+.hero{
+    height: 15%;
+    width: 100%;
+    background-color: rgb(255, 144, 34);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-
-.home{
-    width:350px;
-    height: 400px;
-    background-color: rgb(68, 117, 208);
+header{
+    font-size: 60px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    border: 3px solid black;
-    border-radius: 10px;
 }
-h1{
-    height: 100px;
-    display: flex;
-    font-family: poppins;
-    justify-content: center;
-    align-items: center;
-
-}
-input{
-    height: 30px;
-    width: 200px;
-    border: 3px solid rgb(27, 26, 26);
-    font-family: poppins;
-font-weight: 400;
-font-size: 20px;
-border-radius: 5px;
-
+textarea{
+margin-top: 50%;
+border-radius: 10px;
+background-color: rgb(96, 88, 88);
+color: white;
+font-size: 30px;
 
 }
 button{
-height: 30px;
-width: 100px;
-border: 3px solid rgb(27, 26, 26);
+    height: 30px;
+    width: 90px;
+    margin-top: 70%;
+    margin-right: 350px;
+border-radius: 5px;
 
+    background-color: rgb(44, 41, 41);
+    color: beige;
 }
-
-.home1{
-    width:350px;
-    height: 400px;
-    background-color: rgb(68, 117, 208);
-
-    border-radius: 10px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border: 3px solid black;
-
-    align-items: center;
-}
-
-
-
-input{
-    margin-bottom: 15px;
+.spn{
+margin-bottom: 50%;
 }
