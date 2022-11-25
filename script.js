@@ -1,9 +1,10 @@
-const show =()=>{
-console.log(document.getElementById('ar').value)
-let a=document.getElementById('ar').value;
-let b=a.toUpperCase();
+ const show =()=>{
+console.log('helllo') 
+document.getElementById('hero').style.display="flex"
 
-document.getElementById('spn').innerHTML=b;
-// console.log(a.split('w'))
-   
+}
+const clos =()=>{
+    // alert("world")
+document.getElementById('hero').style.display="none"
+    
 }
