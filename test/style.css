@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+.sidenav{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.lg{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(242, 151, 14);
+    display: flex;
+    color: white;
+    font-size: 50px;
+    border-bottom: 3px solid black;
+    justify-content: center;
+    align-items: center;
+}
+.lg:hover{
+    transition: all .2s ease-in;
+    background-color: rgb(20, 221, 211);
+
+}
+
+.cont{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    color: white;
+    font-size: 28px;
+    background-color: rgb(17, 99, 132);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hm{
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.hm:hover{
+    transition: all .2s ease-in;
+    background-color: rgb(20, 221, 211);
+
+}
+.co{
+    height: 50px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.co:hover{
+    transition: all .2s ease-in;
+    background-color: rgb(20, 221, 211);
+
+}
+.home{
+    width: 90%;
+    height: 100%;
+    background-color: rgb(74, 71, 77);
+    display: flex;
+    flex-direction: column;
+}
+/* .navbar{
+    width: 100%;
+    height: 15%;
+    /* background-color: rgb(17, 99, 132); */
+    /* display: flex;
+    color: white;
+    font-size: 28px;
+    justify-content: space-evenly;
+    align-items: center;
+}  */ 
+.card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.cards1{
+    width: 100%;
+    height: 40.5%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.cardone{
+    height: 250px;
+    width: 250px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+}
+.cardone img{
+    height: 250px;
+    border-radius: 20px;
+    width: 250px;
+    background-position: cover;
+}
+.cards2{
+    width: 100%;
+    height: 40.5%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.cardtwo{
+    height: 250px;
+    width: 250px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+}
+.cardtwo img{
+    height: 250px;
+    border-radius: 20px;
+    width: 250px;
+    background-position: cover;
+}
