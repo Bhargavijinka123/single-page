@@ -1,96 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
 }
+body{
+    overflow-x: hidden;
+}
 .main{
     width: 100%;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.home{
-    width: 40%;
-    height: 80%;
-    background-color: rgb(76, 74, 74);
-    color: white;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: 5px;
-    font-size: 20px;
-    flex-direction: column;
-}
-
-input{
-    width: 300px;
-    height: 40px;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    font-size: 20px;
-}
-.box{
-    width: 300px;
-    height: 300px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: 5px;
-
-    flex-direction: column;
-}
-.num1,.num2,.num3,.num4{
-    width:370px;
-    height: 250px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: rgb(96, 94, 94);
+    
     
 }
-.num1 span{
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    color: black;
+.navbar{
+    width: 100%;
+    height: 15%;
+    background-color:#040453;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
 }
-.num2 span{
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    color: black;
+.lg{
+    width: 30%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
+    font-size: 40px;
 }
-.num3 span{
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    color: black;
+.cont{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+
+}
+.home{
+    height: 85%;
+    width: 100%;
+}
+.home img{
+    height: 100%;
+    width: 100%;
+}
+.about{
+    width: 100%;
+    height: 500px;
+    background-color: coral;
+    display: flex;
+}
+.ab-im{
+    width: 40%;
+    height: 500px;
+    background-color: black;
+}
+.ab-im img{
+    width: 100%;
+    height: 500px;
+}
+.ab-con{
+    width: 60%;
+    height: 500px;
+    background-color: #040453;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
+    /* flex-direction: column; */
 }
-.num4 span{
-    width: 40px;
-    height: 40px;
+.ab-it{
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+/* align-items: center; */
+}
+.ab-con h1{
+   
+  font-size: 40px;
+  color: white;
+  padding-bottom: 10px;
+  font-family: poppins;
+    font-weight: 600;
+}
+.ab-con p{
+    
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    /* text-align: justify; */
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: poppins;
+    font-weight: 500;
+}
+button{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+.course{
+    width: 100%;
+    height: 500px;
+    background-color: #070738;
+    display: flex;
+
+}
+.cr-con{
+    width: 70%;
+    height: 500px;
     background-color: white;
-    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+    flex-direction: column
+    
+
+}
+.cr-con h2{
+    height: 10px;
+    width: 800px;
+    font-size: 30px;
+    font-family: poppins;
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-right: 90px;
+}
+.cr-con p{
+    height: 30px;
+    width: 900px;
+    font-size: 20px;
+    font-family: poppins;
+    font-weight: 400;
+    text-align: justify;
+    padding-bottom: 300px;
+
+}
+.side-cont{
+    width: 30%;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+.cr-img1{
+    width: 250px;
+    height: 250px;
+    padding-top: 30px;
+position: absolute;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+padding-right: 250px;
+}
+.cr-img1 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cr-img2{
+    width: 30%;
+    height: 500px;
+    padding-top: 300px;
+padding-right: 50px;
+padding-left: 50px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cr-img2 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 300px;
+    
+}
+.cr-img3{
+    width: 30%;
+    height: 500px;
+    position: absolute;
+    display: flex;
+    padding-right: 10px;
+    padding-bottom: 210px;
+
+    justify-content: center;
+    align-items: center;
+
+}
+.cr-img3 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 300px; 
+}
+.contact{
+    width: 100%;
+    height: 600px;
+    background-color: #363637;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.unsplash.com/photo-1513185041617-8ab03f83d6c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-image: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.form{
+    width: 350px;
+    height: 500px;
+    background-color:#040453;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.form h1{
+    font-size: 30px;
+    font-family: poppins;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.form p{
+    font-size: 15px;
+    font-family: poppins;
+    color: white;
+}
+.in1{
+    display: flex;
+    justify-content: space-between;
+}
+.in1 input{
+    height: 20px;
+    width: 150px;
     border-radius: 5px;
 }
-.num4 a{
-width: 100px;
+input{
+    height: 20px;
+    width: 300px;
+    border-radius: 5px;
+}
+.in2 input{
+    height: 50px;
+}
+.small{
+    width: 20px !important;
+}
+.cb{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cb span{
+height: 10px;
+color: aliceblue;
+font-size: 8px;
+font-family: poppins;
+}
+.btn{
+    height: 35px;
+    width: 100px;
+    background-color: blue;
+    font-size: 15px;
+    font-family: poppins;
+    font-weight: 300;
+}
+.service{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: grey;
+}
+
+.tag-bar{
+    height:120px;
+    width:80%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+   width:95%;
+   height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    background-color:white;
+    font-size: 30px;
+    font-family: poppins;
+    font-weight: 800;
+}
+.header h1{
+font-size: 50px;  
+padding-left: 600px; 
+}
+.blue{
+    width: 15%;
+    height: 50%;
+    position: absolute;
+    display: flex;
+    z-index: 0;
+    background-color: rgb(67, 67, 217);
+right: 0;
+}
+.cards{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardone{
+    width: 100%;
+    height: 40.2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.card1{
+    width: 250px;
+    height: 280px;
+    position: relative;
+}
+.card1 h1{
+    position: absolute;
+    bottom: 50px;
+    font-family: poppins;
+    color: white;
+    text-shadow: 8px 8px rgb(43, 42, 42);
+    font-size: 30px;
+}
+.card1 img{
+    width: 250px;
+    height: 280px;
+    border-radius: 10px;
+}
+.cardtwo{
+    width: 100%;
+    height: 40.2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card2{
+    width: 250px;
+    height: 280px;
+}
+.card2 img{
+    width: 250px;
+    height: 280px;
+    border-radius: 10px;
+}
+.card2 h1{
+    position: absolute;
+    bottom: 50px;
+    font-family: poppins;
+    color: white;
+    text-shadow: 8px 8px rgb(43, 42, 42);
+    font-size: 30px;
+}
+.card2 h2{
+    position: absolute;
+    bottom: 20px;
+    font-family: poppins;
+    color: white;
+    text-shadow: 8px 8px rgb(43, 42, 42);
+    font-size: 30px;
 }

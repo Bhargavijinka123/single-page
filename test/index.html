@@ -8,39 +8,121 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main">
+    <section class="main">
+        <div class="navbar">
+            <div class="lg">Aviation</div>
+            <div class="cont">
+                <span>Home</span>
+                <span>Contact</span>
+                <span>About</span>
+            </div>   
+        </div>
         <div class="home">
-            <input type="number" id="fn" placeholder="FirstNum" class="one">
-            <input type="number" id="sn" placeholder="SecondNum" class="two">
-            <input type="number" id="to" placeholder="Total"class="three">
-            <div class="box">
-                <div class="num1">
-                    <span>1</span>
-                    <span>2</span>
-                    <span>3</span>
-                    <span>4</span>
+            <img src="https://images.unsplash.com/photo-1529074963764-98f45c47344b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1186&q=80" alt="">
+        </div>
+    </section>
+    
+    
+    <section class="about">
+        <div class="ab-im">
+            <img src="https://images.unsplash.com/photo-1493673155827-a7617e74a0ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1062&q=80" alt="">
+        </div>
+        
+        <div class="ab-con">
+            <div class="ab-it">
+                <h1>About Us</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure perspiciatis distinctio culpa excepturi ducimus eveniet dolorem numquam debitis ut repudiandae.
+                </p>
+                <button>JOIN NOW</button>
+            </div>
+        </div>
+    </section>
+    <section class="course">
+        <div class="cr-con">
+            <h2>Ready to elevate your training experience?</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quaerat placeat assumenda reprehenderit nihil odio natus culpa eius, vitae quas totam unde, ab quae accusantium eligendi ducimus fugit dolor fugiat possimus laborum consectetur repudiandae? Vel debitis dolorum illo ea non?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, et? Hic, veniam! Ex accusamus laudantium mollitia placeat fugit nisi dolores!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi itaque est temporibus. Magnam saepe accusamus libero numquam enim. Ullam, autem.
+            </p>
+            
+        </div>
+        <div class="side-cont">     
+            <div class="cr-img1">
+                <img src="https://images.unsplash.com/photo-1493673155827-a7617e74a0ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1062&q=80" alt="">
+            </div>
+            <div class="cr-img2">
+                
+                <img src="https://images.unsplash.com/photo-1587408811730-1a978e6c407d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=384&q=80" alt="">
+            </div>
+            <div class="cr-img3">
+                
+                <img src="https://images.unsplash.com/photo-1509541206217-cde45c41aa6d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="form">
+            <h1>Registration</h1>
+            <p>Subscribe now to receive exclusive and</p>
+            <p>updates</p>
+            <div class="in1">
+                <input type="text" placeholder="First Name (eg:_ _)">
+                <input type="text" placeholder="Last Name (eg:_ _)">
+            </div>
+            
+            <input type="text" placeholder="E-mail (eg:_ _)">
+            <input type="text" placeholder="Location (eg:Banglore)">
+            <input type="text" placeholder="Qualifications(eg:Degree)">
+            <span class="in2">
+                <input type="text" placeholder="About You">
+            </span>
+            <span class="cb">
+                <input type="checkbox" class="small">
+                <span>By clicking here you will agree to all the terms and conditions</span>
+            </span>
+            <button class="btn">SUBMIT</button>
+        </div>
+    </section>
+    <section class="service">
+        <div class="tag-bar">
+            <div class="header"><h1>SERVICES</h1></div>
+        </div>
+        <div class="blue"></div>
+        
+        
+        <div class="cards">
+            <div class="cardone">
+                <div class="card1">
+                    
+                    <img src="https://images.unsplash.com/photo-1572358707000-39729872feba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGFpcnBvcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                    <h1>Cabin-Crew</h1>
+                    
                 </div>
-                <div class="num2">
-                    <span>5</span>
-                    <span>6</span>
-                    <span>7</span>
-                    <span>8</span>
+                <div class="card1">
+                    <img src="https://images.unsplash.com/photo-1542296332-2e4473faf563?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGFpcnBvcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                    <h1>Ground staff</h1>
                 </div>
-                <div class="num3">
-                    <span>9</span>
-                    <span>0</span>
-                    <span id="plus" onclick="calc('plus')">+</span>
-                    <span onclick="calc('minus')">-</span>
+                <div class="card1">
+                    <img src="https://images.unsplash.com/photo-1583330357508-1864f8e57785?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGFpcnBvcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                    <h1>E-learn</h1>
                 </div>
-                <div class="num4">
-                    <span onclick="calc('multiply')">*</span>
-                    <span onclick="calc('divide')">/</span>
-                    <span onclick="calc('percent')">%</span>
-                    <span class="a" onclick="calc()">E</span>
+            </div>
+            <div class="cardtwo">
+                <div class="card2">
+                    <img src="https://images.unsplash.com/photo-1549897411-b06572cdf806?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGFpcnBvcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
+                    <h1>Airline-Tra</h1>
+                </div> <div class="card2">
+                    <img src="https://images.unsplash.com/photo-1623888676435-d3b01b4d1dc0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YWVyb3BsYW5lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                    <h1>Aircare</h1>
+
+                </div>
+                 <div class="card2">
+                    <img src="https://images.unsplash.com/photo-1556388158-158ea5ccacbd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWlycG9ydHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                    <h1>Customer-</h1>
+                    <h2>support</h2>
+
                 </div>
             </div>
         </div>
-    </div>
-    <script src="script.js"></script>
+        
+    </section>
 </body>
 </html>
