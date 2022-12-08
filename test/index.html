@@ -62,25 +62,29 @@
     </section>
     <section id="contact" class="contact">
         <div id="join-now" class="form">
+           <form action="">
+
             <h1>Registration</h1>
             <p>Subscribe now to receive exclusive and</p>
             <p>updates</p>
             <div class="in1">
-                <input type="text" id="fl" placeholder="First Name (eg:_ _)">
-                <input type="text" id="ln" placeholder="Last Name (eg:_ _)">
+                <input type="text" id="fl" required placeholder="First Name (eg:_ _)">
+                <input type="text" id="ln"  required placeholder="Last Name (eg:_ _)">
             </div>
-            <input type="text" id="em" placeholder="E-mail (eg:_ _)">
-            <input type="text" id="la" placeholder="Location (eg:Banglore)">
-            <input type="text" id="qu" placeholder="Qualifications(eg:Degree)">
+            <input  type="text" id="em" placeholder="E-mail (eg:_ _)" required>
+            <input  type="text" id="la" placeholder="Location (eg:Banglore)" required>
+            <input required type="text" id="qu" placeholder="Qualifications(eg:Degree)">
             <span class="in2">
-                <textarea name="" id="ay" cols="38" rows="4" placeholder="About You"></textarea>
+                <textarea required name="" id="ay" cols="38" rows="4" placeholder="About You"></textarea>
             </span>
             <span class="cb">
-                <input type="checkbox" class="small">
+                <input type="checkbox" checked class="small">
                 <span>By clicking here you will agree to all the terms and conditions</span>
             </span>
             <button class="btn" id="sub" onclick="sub()">SUBMIT</button>
-            <button class="btn"><a href="#about">BACK</a></button>
+            <button class="btn"><a href="#about">BACK</a></button>  
+
+           </form>
         </div>
     </section>
     <section id="service" class="service">
