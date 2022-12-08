@@ -21,8 +21,7 @@ body{
     background-color:#040453;
     color: white;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     font-family: poppins;
 }
 .lg{
@@ -35,10 +34,10 @@ body{
     font-weight: 400;
 }
 .lg i{
-    color: black;
+    color: white;
 }
 .cont{
-    width: 70%;
+    width: 50%;
     height: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -46,8 +45,17 @@ body{
     font-size: 25px;
     font-weight: 300;
 }
+.cont a{
+    text-decoration: none;
+    color: white;
+}
+.hm:hover{
+    opacity: .6;
+    transition: all .2s ease-in;
+    scale: 1.1;
+}
 .cont i{
-    color: black;
+    color: white;
     font-size: 30px;
 }
 .home{
@@ -90,7 +98,7 @@ body{
 }
 .ab-con h1{
     font-size: 40px;
-    color: black;
+    color: white;
     padding-bottom: 10px;
     font-family: poppins;
     font-weight: 600;
@@ -105,7 +113,7 @@ body{
     font-family: poppins;
     font-weight: 500;
 }
-button{
+.ab-con button{
     width: 130px;
     height: 30px;
     background-color: black;
@@ -114,6 +122,12 @@ button{
     font-weight: 200;
     font-size: 15px;
     border-radius: 5px;
+}
+.ab-con button:hover{
+    transition: all .2s ease-in;
+    scale: 1.1;
+    background-color: rgb(89, 85, 85);
+    color: white;
 }
 .course{
     width: 100%;
@@ -189,8 +203,7 @@ button{
 .cr-img2 img{
     width: 150px;
     height: 150px;
-    border-radius: 300px;
-    
+    border-radius: 300px;   
 }
 .cr-img3{
     width: 30%;
@@ -243,10 +256,11 @@ button{
 .in1{
     display: flex;
     justify-content: space-between;
+    width: 300px;
 }
 .in1 input{
     height: 20px;
-    width: 145px;
+    width: 135px;
     justify-content: space-between;
     align-items: center;
     border-radius: 5px;
@@ -278,9 +292,17 @@ input{
     height: 35px;
     width: 100px;
     background-color: blue;
-    font-size: 15px;
+    font-size: 17px;
+    transition: all .2s ease-out;
+    color: white;
     font-family: poppins;
     font-weight: 300;
+}
+.btn:hover{
+    transition: all .2s ease-in;
+    scale: 1.1;
+    background-color: white;
+    color: black;
 }
 .service{
     width: 100%;
@@ -346,6 +368,7 @@ input{
     width: 300px;
     height: 350px;
     position: relative;
+    transition: all .2s ease-out;
 }
 .card1 h1{
     position: absolute;
@@ -360,6 +383,11 @@ input{
     height: 350px;
     border-radius: 10px;
     top: 0;
+    box-shadow: 5px 5px rgb(35, 34, 34);
+}
+.card1:hover{
+    scale: 1.05;
+    transition: all .2s ease-in;
 }
 .card1 h5{
     position: absolute;
@@ -369,6 +397,7 @@ input{
     color: white;
     font-family: poppins;
     font-weight: 300;
+
 }
 .card1 i{
     font-size: 20px;
@@ -397,6 +426,13 @@ input{
     width: 270px;
     height: 350px;
     border-radius: 10px;
+    box-shadow: 5px 5px rgb(35, 34, 34);
+
+}
+.card2:hover{
+    transition: all .2s ease-in;
+    scale: 1.05;
+
 }
 .card2 h1{
     position: absolute;
