@@ -10,8 +10,10 @@ body{
 .main{
     width: 100%;
     height: 100vh;
-    
-    
+    background-image: url('https://images.unsplash.com/photo-1529074963764-98f45c47344b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1186&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .navbar{
     width: 100%;
@@ -21,6 +23,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: poppins;
 }
 .lg{
     width: 30%;
@@ -29,6 +32,10 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 40px;
+    font-weight: 400;
+}
+.lg i{
+    color: black;
 }
 .cont{
     width: 70%;
@@ -37,7 +44,11 @@ body{
     justify-content: space-evenly;
     align-items: center;
     font-size: 25px;
-
+    font-weight: 300;
+}
+.cont i{
+    color: black;
+    font-size: 30px;
 }
 .home{
     height: 85%;
@@ -69,48 +80,46 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
 }
 .ab-it{
     height: 300px;
     width: 500px;
     display: flex;
     flex-direction: column;
-justify-content: center;
-/* align-items: center; */
+    justify-content: center;
 }
 .ab-con h1{
-   
-  font-size: 40px;
-  color: white;
-  padding-bottom: 10px;
-  font-family: poppins;
+    font-size: 40px;
+    color: black;
+    padding-bottom: 10px;
+    font-family: poppins;
     font-weight: 600;
 }
 .ab-con p{
-    
     display: flex;
     color: white;
     justify-content: space-evenly;
     align-items: center;
-    /* text-align: justify; */
     padding-top: 10px;
     padding-bottom: 20px;
     font-family: poppins;
     font-weight: 500;
 }
 button{
-    width: 100px;
+    width: 130px;
     height: 30px;
     background-color: black;
     color: white;
+    font-family: poppins;
+    font-weight: 200;
+    font-size: 15px;
+    border-radius: 5px;
 }
 .course{
     width: 100%;
     height: 500px;
     background-color: #070738;
     display: flex;
-
 }
 .cr-con{
     width: 70%;
@@ -119,9 +128,7 @@ button{
     display: flex;
     justify-content: space-evenly;
     align-items: center ;
-    flex-direction: column
-    
-
+    flex-direction: column;
 }
 .cr-con h2{
     height: 10px;
@@ -140,7 +147,6 @@ button{
     font-weight: 400;
     text-align: justify;
     padding-bottom: 300px;
-
 }
 .side-cont{
     width: 30%;
@@ -154,11 +160,11 @@ button{
     width: 250px;
     height: 250px;
     padding-top: 30px;
-position: absolute;
-display: flex;
-justify-content: flex-start;
-align-items: center;
-padding-right: 250px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 250px;
 }
 .cr-img1 img{
     width: 250px;
@@ -172,13 +178,13 @@ padding-right: 250px;
     width: 30%;
     height: 500px;
     padding-top: 300px;
-padding-right: 50px;
-padding-left: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
 }
 .cr-img2 img{
     width: 150px;
@@ -193,10 +199,8 @@ padding-left: 50px;
     display: flex;
     padding-right: 10px;
     padding-bottom: 210px;
-
     justify-content: center;
     align-items: center;
-
 }
 .cr-img3 img{
     width: 150px;
@@ -209,15 +213,15 @@ padding-left: 50px;
     background-color: #363637;
     display: flex;
     justify-content: center;
+    border: 2px solid black;
     align-items: center;
-    background-image: url(https://images.unsplash.com/photo-1513185041617-8ab03f83d6c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
-    background-image: cover;
+    background-image: url('https://images.unsplash.com/photo-1605221310464-a83e9de37422?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80');
+    background-image: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 .form{
-    width: 350px;
+    width: 380px;
     height: 500px;
     background-color:#040453;
     display: flex;
@@ -242,7 +246,9 @@ padding-left: 50px;
 }
 .in1 input{
     height: 20px;
-    width: 150px;
+    width: 145px;
+    justify-content: space-between;
+    align-items: center;
     border-radius: 5px;
 }
 input{
@@ -263,10 +269,10 @@ input{
     justify-content: space-evenly;
 }
 .cb span{
-height: 10px;
-color: aliceblue;
-font-size: 8px;
-font-family: poppins;
+    height: 10px;
+    color: aliceblue;
+    font-size: 8px;
+    font-family: poppins;
 }
 .btn{
     height: 35px;
@@ -278,25 +284,24 @@ font-family: poppins;
 }
 .service{
     width: 100%;
-    height: 100vh;
+    height: 600px;
     display: flex;
     flex-direction: column;
     position: relative;
-    background-color: grey;
+    background-color: rgb(172, 171, 171);
 }
-
 .tag-bar{
-    height:120px;
+    height:200px;
     width:80%;
-    background-color: grey;
+    background-color:  rgb(172, 171, 171);
+    top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .header{
-   width:95%;
-   height: 100px;
+    width:100%;
+    height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -307,21 +312,22 @@ font-family: poppins;
     font-weight: 800;
 }
 .header h1{
-font-size: 50px;  
-padding-left: 600px; 
+    font-size: 50px;  
+    padding-left: 600px; 
 }
 .blue{
     width: 15%;
-    height: 50%;
+    height: 700px;
     position: absolute;
     display: flex;
+    border-radius: 5px;
     z-index: 0;
-    background-color: rgb(67, 67, 217);
-right: 0;
+    background-color: rgb(101, 101, 245);
+    right: 0;
 }
 .cards{
     width: 100%;
-    height: 85%;
+    height: 400px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -330,59 +336,96 @@ right: 0;
 
 .cardone{
     width: 100%;
-    height: 40.2%;
+    height: 600px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     position: relative;
 }
 .card1{
-    width: 250px;
-    height: 280px;
+    width: 300px;
+    height: 350px;
     position: relative;
 }
 .card1 h1{
     position: absolute;
-    bottom: 50px;
+    bottom: 30px;
     font-family: poppins;
     color: white;
-    text-shadow: 8px 8px rgb(43, 42, 42);
+    text-shadow: 2px 2px rgb(43, 42, 42);
     font-size: 30px;
 }
 .card1 img{
-    width: 250px;
-    height: 280px;
+    width: 270px;
+    height: 350px;
     border-radius: 10px;
+    top: 0;
+}
+.card1 h5{
+    position: absolute;
+    font-size: 18px;
+    bottom: 10px;
+    left: 20px;
+    color: white;
+    font-family: poppins;
+    font-weight: 300;
+}
+.card1 i{
+    font-size: 20px;
+} 
+.ca{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: rgb(172, 171, 171);
 }
 .cardtwo{
     width: 100%;
-    height: 40.2%;
+    height: 600px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 .card2{
-    width: 250px;
-    height: 280px;
+    width: 300px;
+    height: 350px;
+    position: relative;
 }
 .card2 img{
-    width: 250px;
-    height: 280px;
+    width: 270px;
+    height: 350px;
     border-radius: 10px;
 }
 .card2 h1{
     position: absolute;
-    bottom: 50px;
+    bottom: 70px;
+    left: 10px;
     font-family: poppins;
     color: white;
-    text-shadow: 8px 8px rgb(43, 42, 42);
+    text-shadow: 2px 2px rgb(43, 42, 42);
     font-size: 30px;
 }
 .card2 h2{
     position: absolute;
-    bottom: 20px;
+    bottom: 50px;
+    left: 20px;
     font-family: poppins;
     color: white;
-    text-shadow: 8px 8px rgb(43, 42, 42);
-    font-size: 30px;
+    text-shadow: 2px 2px rgb(43, 42, 42);
+    font-size: 25px;
+}
+.card2 h5{
+    position: absolute;
+    font-size: 18px;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    font-family: poppins;
+    font-weight: 300;
+}
+.card2 i{
+    font-size: 20px;
+    
 }
