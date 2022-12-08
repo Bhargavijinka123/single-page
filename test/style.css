@@ -34,7 +34,8 @@ body{
     font-weight: 400;
 }
 .lg i{
-    color: white;
+    color: rgb(110, 107, 107);
+    font-size: 30px;
 }
 .cont{
     width: 50%;
@@ -53,9 +54,10 @@ body{
     opacity: .6;
     transition: all .2s ease-in;
     scale: 1.1;
+    cursor: pointer;
 }
 .cont i{
-    color: white;
+    color: rgb(103, 100, 100);
     font-size: 30px;
 }
 .home{
@@ -94,7 +96,7 @@ body{
     width: 500px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .ab-con h1{
     font-size: 40px;
@@ -123,11 +125,17 @@ body{
     font-size: 15px;
     border-radius: 5px;
 }
+.ab-con button a{
+    text-decoration: none;
+    color: white;
+}
 .ab-con button:hover{
     transition: all .2s ease-in;
     scale: 1.1;
     background-color: rgb(89, 85, 85);
     color: white;
+    cursor: pointer;
+    border-radius: 5px;
 }
 .course{
     width: 100%;
@@ -154,7 +162,7 @@ body{
     padding-right: 90px;
 }
 .cr-con p{
-    height: 30px;
+    height: 5px;
     width: 900px;
     font-size: 20px;
     font-family: poppins;
@@ -237,6 +245,8 @@ body{
     width: 380px;
     height: 500px;
     background-color:#040453;
+    border: 3px solid rgb(11, 9, 9);
+
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -247,6 +257,7 @@ body{
     font-family: poppins;
     font-weight: 500;
     text-decoration: underline;
+    color: rgb(110, 108, 108);
 }
 .form p{
     font-size: 15px;
@@ -298,11 +309,17 @@ input{
     font-family: poppins;
     font-weight: 300;
 }
+.btn a{
+    text-decoration: none;
+    color: white;
+}
 .btn:hover{
     transition: all .2s ease-in;
     scale: 1.1;
-    background-color: white;
-    color: black;
+    background-color: rgb(54, 52, 52);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
 }
 .service{
     width: 100%;
@@ -383,11 +400,13 @@ input{
     height: 350px;
     border-radius: 10px;
     top: 0;
-    box-shadow: 5px 5px rgb(35, 34, 34);
+    box-shadow: 3px 2px 3px 2px rgb(35, 34, 34);
 }
 .card1:hover{
     scale: 1.05;
     transition: all .2s ease-in;
+    cursor: pointer;
+  
 }
 .card1 h5{
     position: absolute;
@@ -421,18 +440,20 @@ input{
     width: 300px;
     height: 350px;
     position: relative;
+
 }
 .card2 img{
     width: 270px;
     height: 350px;
     border-radius: 10px;
-    box-shadow: 5px 5px rgb(35, 34, 34);
+    box-shadow: 3px 2px 3px 2px rgb(35, 34, 34);
+    
 
 }
 .card2:hover{
     transition: all .2s ease-in;
     scale: 1.05;
-
+    cursor: pointer;
 }
 .card2 h1{
     position: absolute;

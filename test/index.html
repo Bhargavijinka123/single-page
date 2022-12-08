@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css" integrity="sha512-giQeaPns4lQTBMRpOOHsYnGw1tGVzbAIHUyHRgn7+6FmiEgGGjaG0T2LZJmAPMzRCl+Cug0ItQ2xDZpTmEc+CQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <section class="main">
+    <section id="main" class="main">
         <div class="navbar">
             <div class="lg"><i class="fa-sharp fa-solid fa-plane"></i>Aviation</div>
             <div class="cont">
@@ -34,14 +34,16 @@
                 <h1>About Us</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure perspiciatis distinctio culpa excepturi ducimus eveniet dolorem numquam debitis ut repudiandae.
                 </p>
-                <button>JOIN-NOW</button>
+                <button onclick="alr()" id="jn"><a href="#join-now">JOIN-NOW</a></button>
+
+                <button><a href="#main">BACK</a></button>
             </div>
         </div>
     </section>
     <section id="course" class="course">
         <div class="cr-con">
             <h2>Ready to elevate your training experience?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quaerat placeat assumenda reprehenderit nihil odio natus culpa eius, vitae quas totam unde, ab quae accusantium eligendi ducimus fugit dolor fugiat possimus laborum consectetur repudiandae? Vel debitis dolorum illo ea non?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, et? Hic, veniam! Ex accusamus laudantium mollitia placeat fugit nisi dolores!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi itaque est temporibus. Magnam saepe accusamus libero numquam enim. Ullam, autem.
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quaerat placeat assumenda reprehenderit nihil odio natus culpa eius, vitae quas totam unde, ab quae accusantium eligendi ducimus fugit dolor fugiat possimus laborum consectetur repudiandae? Vel debitis dolorum illo ea non?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, et? Hic, veniam! Ex accusamus laudantium mollitia placeat fugit nisi dolores!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi itaque est temporibus. Magnam saepe accusamus libero numquam enim. Ullam, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, quibusdam.
             </p> 
         </div>
         <div class="side-cont">     
@@ -59,25 +61,26 @@
         </div>
     </section>
     <section id="contact" class="contact">
-        <div class="form">
+        <div id="join-now" class="form">
             <h1>Registration</h1>
             <p>Subscribe now to receive exclusive and</p>
             <p>updates</p>
             <div class="in1">
-                <input type="text" placeholder="First Name (eg:_ _)">
-                <input type="text" placeholder="Last Name (eg:_ _)">
+                <input type="text" id="fl" placeholder="First Name (eg:_ _)">
+                <input type="text" id="ln" placeholder="Last Name (eg:_ _)">
             </div>
-            <input type="text" placeholder="E-mail (eg:_ _)">
-            <input type="text" placeholder="Location (eg:Banglore)">
-            <input type="text" placeholder="Qualifications(eg:Degree)">
+            <input type="text" id="em" placeholder="E-mail (eg:_ _)">
+            <input type="text" id="la" placeholder="Location (eg:Banglore)">
+            <input type="text" id="qu" placeholder="Qualifications(eg:Degree)">
             <span class="in2">
-                <textarea name="" id="" cols="38" rows="4" placeholder="About You"></textarea>
+                <textarea name="" id="ay" cols="38" rows="4" placeholder="About You"></textarea>
             </span>
             <span class="cb">
                 <input type="checkbox" class="small">
                 <span>By clicking here you will agree to all the terms and conditions</span>
             </span>
-            <button class="btn">SUBMIT</button>
+            <button class="btn" id="sub" onclick="sub()">SUBMIT</button>
+            <button class="btn"><a href="#about">BACK</a></button>
         </div>
     </section>
     <section id="service" class="service">
@@ -127,5 +130,6 @@
             </div>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
