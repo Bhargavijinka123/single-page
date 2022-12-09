@@ -35,7 +35,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure perspiciatis distinctio culpa excepturi ducimus eveniet dolorem numquam debitis ut repudiandae.
                 </p>
                 <button onclick="alr()" id="jn"><a href="#join-now">JOIN-NOW</a></button>
-
+                
                 <button><a href="#main">BACK</a></button>
             </div>
         </div>
@@ -62,29 +62,29 @@
     </section>
     <section id="contact" class="contact">
         <div id="join-now" class="form">
-           <form action="">
-
-            <h1>Registration</h1>
-            <p>Subscribe now to receive exclusive and</p>
-            <p>updates</p>
-            <div class="in1">
-                <input type="text" id="fl" required placeholder="First Name (eg:_ _)">
-                <input type="text" id="ln"  required placeholder="Last Name (eg:_ _)">
-            </div>
-            <input  type="text" id="em" placeholder="E-mail (eg:_ _)" required>
-            <input  type="text" id="la" placeholder="Location (eg:Banglore)" required>
-            <input required type="text" id="qu" placeholder="Qualifications(eg:Degree)">
-            <span class="in2">
-                <textarea required name="" id="ay" cols="38" rows="4" placeholder="About You"></textarea>
-            </span>
-            <span class="cb">
-                <input type="checkbox" checked class="small">
-                <span>By clicking here you will agree to all the terms and conditions</span>
-            </span>
-            <button class="btn" id="sub" onclick="sub()">SUBMIT</button>
-            <button class="btn"><a href="#about">BACK</a></button>  
-
-           </form>
+            <form action="">
+                
+                <h1>Registration</h1>
+                <p>Subscribe now to receive exclusive and</p>
+                <p>updates</p>
+                <div class="in1">
+                    <input type="text" id="fl" required placeholder="First Name (eg:_ _)">
+                    <input type="text" id="ln"  required placeholder="Last Name (eg:_ _)">
+                </div>
+                <input  type="text" id="em" placeholder="E-mail (eg:_ _)" required>
+                <input  type="text" id="la" placeholder="Location (eg:Banglore)" required>
+                <input required type="text" id="qu" placeholder="Qualifications(eg:Degree)">
+                <span class="in2">
+                    <textarea required name="" id="ay" cols="38" rows="4" placeholder="About You"></textarea>
+                </span>
+                <span class="cb">
+                    <input type="checkbox" checked class="small">
+                    <span>By clicking here you will agree to all the terms and conditions</span>
+                </span>
+                <button class="btn" id="sub" onclick="sub()">SUBMIT</button>
+                <button class="btn"><a href="#about">BACK</a></button>  
+                
+            </form>
         </div>
     </section>
     <section id="service" class="service">
@@ -93,23 +93,39 @@
         </div>
         <div class="blue"></div>
         <div class="cards">
-            <div class="cardone">
-                <div class="card1">
-                    
-                    <img src="https://images.unsplash.com/photo-1572358707000-39729872feba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGFpcnBvcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
+            <div class="cardone" id="cardone">
+                <div class="card1" id="card1"  onclick="show()">
+                    <img id="img1" src="https://images.unsplash.com/photo-1572358707000-39729872feba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGFpcnBvcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
                     <h1>Cabin-Crew</h1>
                     <h5>Discover more <i class="fa-solid fa-arrow-right"></i></h5>
                 </div>
-                <div class="card1">
+                <div class="ca1" id="ca1" onclick="clos()">
+                 <h1>Cabin-Crew</h1>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, suscipit.</p>
+                </div>
+                <div class="card1" onclick="sh()">
                     <img src="https://images.unsplash.com/photo-1542296332-2e4473faf563?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGFpcnBvcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
                     <h1>Ground staff</h1>
                     <h5>Discover more <i class="fa-solid fa-arrow-right"></i></h5>
                 </div>
-                <div class="card1">
+                
+                <div class="ca2" id="ca2"  onclick="clos()">
+                    <h1>Ground staff</h1>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, suscipit.</p>
+
+                </div>
+                
+                <div class="card1" onclick="sho()">
                     <img src="https://images.unsplash.com/photo-1583330357508-1864f8e57785?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGFpcnBvcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
                     <h1>E-learn</h1>
                     <h5>Discover more <i class="fa-solid fa-arrow-right"></i></h5>
                 </div>
+                <div class="ca3" id="ca3" onclick="clos()">
+                    <h1>E-learn</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, suscipit.</p>
+
+                </div>
+                
             </div>
         </div>
     </section>
