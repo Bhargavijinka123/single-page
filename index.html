@@ -6,150 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css" integrity="sha512-G/T7HQJXSeNV7mKMXeJKlYNJ0jrs8RsWzYG7rVACye+qrcUhEAYKYzaa+VFy6eFzM2+/JT1Q+eqBbZFSHmJQew==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css" integrity="sha512-giQeaPns4lQTBMRpOOHsYnGw1tGVzbAIHUyHRgn7+6FmiEgGGjaG0T2LZJmAPMzRCl+Cug0ItQ2xDZpTmEc+CQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <section id="main" class="main">
+    <section class="main">
         <div class="navbar">
-            <div class="lg"><i class="fa-sharp fa-solid fa-plane"></i>Aviation</div>
+            <div class="logo">LOGO</div>
             <div class="cont">
-                <a href="#home" class="ab">Home</a>
-                <a href="#contact">Contact</a>
-                <a href="#about">About</a>
-                <a href="#course">Course</a>
-                <a href="#service">Service</a>
-                <span><i class="fa-solid fa-bars"></i></span>
-            </div>   
+                <span>Home</span>
+                <span>Contact</span>
+            </div>
         </div>
-        <div id="home" class="home"></div>
+        <div class="home">
+            <div class="img">
+                <img src="https://images.unsplash.com/photo-1669150741320-465c5688f7f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDQ4fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+            </div>
+            <div class="side-cont">
+                <div class="text">
+                    <h1>Nature</h1>
+                    <p>Through photography,the beauty of Mother Nature can be frozen in time.This category celebrates the majic of our planet and beyond-from the immensityvof the greatvoutdoors,to miraculous moments in our own backyard...</p>
+                    <button onclick="show()">Click</button>
+                </div>
+            </div>
+        </div>
+        
+        
     </section>
-    <section id="about" class="about">
-        <div class="ab-im">
-            <img src="https://images.unsplash.com/photo-1493673155827-a7617e74a0ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1062&q=80" alt="">
-        </div>
-        <div class="ab-con">
-            <div class="ab-it">
-                <h1>About Us</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure perspiciatis distinctio culpa excepturi ducimus eveniet dolorem numquam debitis ut repudiandae.
-                </p>
-                <button onclick="alr()" id="jn"><a href="#join-now">JOIN-NOW</a></button>
-                
-                <button><a href="#main">BACK</a></button>
-            </div>
-        </div>
-    </section>
-    <section id="course" class="course">
-        <div class="cr-con">
-            <h2>Ready to elevate your training experience?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quaerat placeat assumenda reprehenderit nihil odio natus culpa eius, vitae quas totam unde, ab quae accusantium eligendi ducimus fugit dolor fugiat possimus laborum consectetur repudiandae? Vel debitis dolorum illo ea non?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, et? Hic, veniam! Ex accusamus laudantium mollitia placeat fugit nisi dolores!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi itaque est temporibus. Magnam saepe accusamus libero numquam enim. Ullam, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, qui. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, quibusdam.
-            </p> 
-        </div>
-        <div class="side-cont">     
-            <div class="cr-img1">
-                <img src="https://images.unsplash.com/photo-1493673155827-a7617e74a0ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1062&q=80" alt="">
-            </div>
-            <div class="cr-img2">
-                
-                <img src="https://images.unsplash.com/photo-1587408811730-1a978e6c407d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=384&q=80" alt="">
-            </div>
-            <div class="cr-img3">
-                
-                <img src="https://images.unsplash.com/photo-1509541206217-cde45c41aa6d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="">
-            </div>
-        </div>
-    </section>
-    <section id="contact" class="contact">
-        <div id="join-now" class="form">
-            <form action="">
-                
-                <h1>Registration</h1>
-                <p>Subscribe now to receive exclusive and</p>
-                <p>updates</p>
-                <div class="in1">
-                    <input type="text" id="fl" required placeholder="First Name (eg:_ _)">
-                    <input type="text" id="ln"  required placeholder="Last Name (eg:_ _)">
-                </div>
-                <input  type="text" id="em" placeholder="E-mail (eg:_ _)" required>
-                <input  type="text" id="la" placeholder="Location (eg:Banglore)" required>
-                <input required type="text" id="qu" placeholder="Qualifications(eg:Degree)">
-                <span class="in2">
-                    <textarea required name="" id="ay" cols="38" rows="4" placeholder="About You"></textarea>
-                </span>
-                <span class="cb">
-                    <input type="checkbox" checked class="small">
-                    <span>By clicking here you will agree to all the terms and conditions</span>
-                </span>
-                <button class="btn" id="sub" onclick="sub()">SUBMIT</button>
-                <button class="btn"><a href="#about">BACK</a></button>  
-                
-            </form>
-        </div>
-    </section>
-    <section id="service" class="service">
-        <div class="tag-bar">
-            <div class="header"><h1>SERVICES</h1></div>
-        </div>
-        <div class="blue"></div>
-        <div class="cards">
-            <div class="cardone" id="cardone">
-                <div class="card1" id="card1"  onclick="show()">
-                    <img id="img1" src="https://images.unsplash.com/photo-1572358707000-39729872feba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGFpcnBvcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
-                    <h1>Cabin-Crew</h1>
-                    <h5>Discover more <i class="fa-solid fa-arrow-right"></i></h5>
-                </div>
-                <div class="ca1" id="ca1" onclick="clos()">
-                 <h1>Cabin-Crew</h1>
-                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, suscipit.</p>
-                </div>
-                <div class="card1" onclick="sh()">
-                    <img src="https://images.unsplash.com/photo-1542296332-2e4473faf563?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGFpcnBvcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
-                    <h1>Ground staff</h1>
-                    <h5>Discover more <i class="fa-solid fa-arrow-right"></i></h5>
-                </div>
-                
-                <div class="ca2" id="ca2"  onclick="clos()">
-                    <h1>Ground staff</h1>
-                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, suscipit.</p>
-
-                </div>
-                
-                <div class="card1" onclick="sho()">
-                    <img src="https://images.unsplash.com/photo-1583330357508-1864f8e57785?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGFpcnBvcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
-                    <h1>E-learn</h1>
-                    <h5>Discover more <i class="fa-solid fa-arrow-right"></i></h5>
-                </div>
-                <div class="ca3" id="ca3" onclick="clos()">
-                    <h1>E-learn</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad, suscipit.</p>
-
-                </div>
-                
-            </div>
-        </div>
-    </section>
-    <section class="ca">
-        <div class="cardtwo">
-            <div class="card2">
-                <img src="https://images.unsplash.com/photo-1549897411-b06572cdf806?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGFpcnBvcnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="">
-                <h1>Airline-Tra</h1>
-                <h5>Discover more <i class="fa-solid fa-arrow-right"></i></h5>
-            </div>
-            <div class="card2">
-                <img src="https://images.unsplash.com/photo-1623888676435-d3b01b4d1dc0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YWVyb3BsYW5lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
-                <h1>Customer-</h1>
-                <h2>support</h2>
-                <h5>Discover more<i class="fa-sharp fa-solid fa-arrow-right"></i></h5>
-            </div>
-            <div class="card2">
-                <img src="https://images.unsplash.com/photo-1556388158-158ea5ccacbd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWlycG9ydHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
-                <h1>Aircare</h1>
-                <h5>Discover more<i class="fa-sharp fa-solid fa-arrow-right"></i></h5>
-                
-            </div>
-        </div>
-    </section>
-    <script src="script.js"></script>
 </body>
 </html>
