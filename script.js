@@ -30,7 +30,11 @@ const sub =()=>{
     else if(b=="DOLLOR" && c=="POUND"){
         document.getElementById('inp1').value=a/0.81
     }
-    else if(b=="DOLLOR" && c=="yen"){
+    else if(b=="DOLLOR" && c=="YEN"){
+        document.getElementById('inp1').value = a*132.4;
+        
+    }
+    else if(b=="DOLLOR" && c=="EURO"){
         document.getElementById('inp1').value = a*132.4;
         
     }
