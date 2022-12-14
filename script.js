@@ -35,7 +35,7 @@ const sub =()=>{
         
     }
     else if(b=="DOLLOR" && c=="EURO"){
-        document.getElementById('inp1').value = a*132.4;
+        document.getElementById('inp1').value = a*0.94;
         
     }
     else if(b=="POUND" && c=="INR"){
