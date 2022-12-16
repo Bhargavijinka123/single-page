@@ -7,36 +7,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css" integrity="sha512-G/T7HQJXSeNV7mKMXeJKlYNJ0jrs8RsWzYG7rVACye+qrcUhEAYKYzaa+VFy6eFzM2+/JT1Q+eqBbZFSHmJQew==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/fontawesome.min.css" integrity="sha512-giQeaPns4lQTBMRpOOHsYnGw1tGVzbAIHUyHRgn7+6FmiEgGGjaG0T2LZJmAPMzRCl+Cug0ItQ2xDZpTmEc+CQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <section class="main">
-    <div class="home">
-        <!-- <span>Type the currency</span> -->
-        <h1>Select currency</h1>
-        <span class="inp"><input type="text" id="inp"></span>
-
-        <span>Current currency type</span>
-
-        <select for="currency" id="c1">
-            <option value="INR">INR</option>
-            <option value="DOLLOR">DOLLOR</option>
-            <option value="EURO">EURO</option>
-            <option value="POUND">POUND</option>
-            <option value="YEN">YEN</option>
-        </select>
-        <h1>To</h1>
-        <span>Change currency type</span>
-        <select for="currency" id="c2">
-            <option value="INR">INR</option>
-            <option value="DOLLOR">DOLLOR</option>
-            <option value="EURO">EURO</option>
-            <option value="POUND">POUND</option>
-            <option value="YEN">YEN</option>
-        </select>
-        <input type="text" id="inp1">
-        <button onclick="sub()" id="btn">Submit</button>
-    </div>
-</section>
-<script src="script.js"></script>
+        <div class="nav">
+            <div class="ak">AK-Pizza</div> 
+            <div class="cont">
+                <p>Menu<i class="fa-solid fa-pizza-slice"></i></p>
+            </div>
+        </div>
+        <div class="home">
+            <div class="ho-txt">
+                <h1>GREATEST</h1>
+                <h2>PIZZA EVER</h2>
+            </div>
+            <div class="ho-re">
+                <h2>READY IN 60 SECONDS</h2>
+            </div>
+            <button class="ho-btn">Place Order</button>
+        </div>
+    </section>
+    <section class="pizzas">
+        <div class="pi-h1">
+            <h1>Choose your favourite</h1>
+        </div>
+        <div class="pi-img">
+            <div class="pi-cards">
+                <img src="https://images.unsplash.com/photo-1585238342024-78d387f4a707?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                <h1>Supreme Pizza</h1>
+                <p>Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto</p>
+                <span>$19.99</span>
+                <button>Add to Cart</button>
+            </div>
+            <div class="pi-cards">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                <h1>Hawaiian Paradise</h1>
+                <p>Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto</p>
+                <span>$19.99</span>
+                <button>Add to Cart</button>
+            </div>
+            <div class="pi-cards">
+                <img src="https://images.unsplash.com/photo-1552539618-7eec9b4d1796?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="">
+                <h1>Veggie Overload</h1>
+                <p>Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto</p>
+                <span>$19.99</span>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+    <section class="pizza-da">
+        <div class="pizza-co">
+            <h1>Pizza of the Day</h1>
+            <p>Truffle alfredo sauce topped with 24 carat gold dust.</p>
+            <button>Order Now</button>
+        </div>
+    </section>
 </body>
 </html>
